@@ -1,0 +1,108 @@
+/* Codigo para el CSS del Trello */
+
+body{
+    /*background-color: rgb(30, 30, 95);*/
+    background-color: rgb(43, 43, 83);
+    font-family: "Open Sans";
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+#addTodoListDiv{
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+#addTodoListDiv button{
+    margin-left: 0.5em;
+}
+
+
+#root{
+    margin: 1em;
+    /*border: 1px solid grey;*/
+    /*display: flex;*/
+    min-width: 1200px;
+}
+
+
+.todoList{
+    /*border: 1px solid red;*/
+    border-radius: 4px;
+    min-height: 100px;
+    background: rgb(235, 235, 235);
+    padding: 0.7em;
+    margin: 1em 0 1em 1em;
+
+    float: left;
+}
+
+.todoList h2{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#to-do-list-button{
+    margin: 20px 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .form-container input,
+  .form-container textarea,
+  .form-container button {
+    margin-bottom: 10px;
+  }
+
+/* Fin del Codigo CSS del Trello */
+
+/* Cambio de Color al ocultar el menu */
+.change-color {
+    background-color: #404E67;
+  }
+
+/* Fin del cambio de color*/
+
+.separacion-titulo{
+    margin: 10% 0;
+}
+
+.boton-aprobado{
+    background-color: #04d118;
+    border: 2px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.boton-aprobado:hover{
+    background-color: #00ff1a;
+    color: #000;
+    border-color: white;
+}
+
+
+.boton-desaprobado{
+    background-color: rgb(206, 2, 2); 
+    border: 2px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.boton-desaprobado:hover{
+    background-color: rgb(255, 0, 0);
+    color: #000;
+    border-color: white;
+}
+
+.navbar-logo img{
+    height: 30%; 
+    width: 30%;
+}
